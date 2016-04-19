@@ -9,3 +9,8 @@ script:
   - source env.sh && npm run test
 notifications:
   slack: devops-training-spb:kfjTXFxdFQxyBbAJ0UtYVqOe
+deploy:
+  app: mighty-river-45242
+  provider: heroku
+  api_key:
+    secure: 07e6a006-b864-4c83-ae5d-46c9dd43b435
