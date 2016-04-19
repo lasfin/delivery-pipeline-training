@@ -9,8 +9,3 @@ script:
   - source env.sh && npm run test
 notifications:
   slack: devops-training-spb:kfjTXFxdFQxyBbAJ0UtYVqOe
-deploy:
-  app: pumpkin-tart-71750
-  provider: heroku
-  api_key:
-    secure: dPo5Cy1QTFxfj7MepK+NO8erzqKlNiGmQ9gUPLoEPWxy2ddtqWFQ5Z9be2C2ko1JFNoloxJiv6D7z3K9GqHIx+QDbAGsijFPsg+Um5EZjL8bPkL0khN67RTLjWqf/F8rPf6zSJcnG4SbXnQHq6TCHQWWlfsKK9RWresADe+Yx/tIYf4aRg3p4FwO20TUYV/PE7rif4IDK6vL4U0i26WgqmrWgEOezrm5I9L2CFMuk/cy9gnJPxAILOFkRvpfSFv/XAjtAs+lDM/C/DMi8uhq6Sq6rHTjsFKc8o7s4wLE+RYnV/QjBosXDDP9ljyFcfhYE4TTpGePp4vm6wBRU9BruPo9mNSEZ9cZ5EsHK0RLoCkw6PEIQfZm8IEgpzlpNGgyHnZ+STI2+y1Xhkj07bC7nDNE7U1FOxxASfeTGC+T57nbw/RHKQFCm5/7TvN69AU9QDUYrrfNT9TzAvKkpZaSlFAVHJPE2yTyKyBq3TkQDRxEtHXy6bBTm6a6/Qb7ZTdZxKYCNWGFBHW1o11MdZux0q2mNpp0rGkI8PBVkUTpPRbt5aGGsIsJxf6Vb6xc03Ie85h1tmbVk2EgI7Ejqpxx5uGWsyCaSgnncngamVQJ9etnloLc+oSQlQrgmxQxpKzV6T/aS37RSeWWDRb8wbvqwktsw2ZdY8ISnHpz8mildm8=
